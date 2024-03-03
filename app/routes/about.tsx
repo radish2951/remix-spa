@@ -12,7 +12,8 @@ export default function Indx() {
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <h1>Welcome to Remix (SPA Mode)</h1>
       <ul>
-        <li><a href="/about">about</a></li>
+        <li><a href="/">ホーム</a></li>
+        <li><a href="/works">作品集</a></li>
         <li>
           <a
             target="_blank"
