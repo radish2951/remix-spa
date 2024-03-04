@@ -1,16 +1,14 @@
 import type { MetaFunction } from "@remix-run/node";
+import GenerateMeta from "~/components/meta";
 
 export const meta: MetaFunction = () => {
-  return [
-    { title: "New Remix SPA" },
-    { name: "description", content: "Welcome to Remix (SPA Mode)!" },
-  ];
+  return GenerateMeta("わーくす！");
 };
 
 export default function Indx() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix (SPA Mode)</h1>
+      <h1>作品集だよ！</h1>
       <ul>
         <li><a href="/">ホーム</a></li>
         <li>
